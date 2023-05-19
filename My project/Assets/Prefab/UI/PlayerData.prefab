@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4491824738914556792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8357563633305275339}
+  - component: {fileID: 8347633378709782946}
+  m_Layer: 0
+  m_Name: PlayerData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8357563633305275339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4491824738914556792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.583333, y: 1.1000003, z: -8.416667}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8347633378709782946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4491824738914556792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00848931056b7748b8b331799430cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_speed: 10
+  player_rotatespeed: 0.2
+  player_hp: 10
+  player_collisiondamage: 1
+  player_missileadamage: 2
+  player_missilebdamage: 1
+  player_missilespeed: 15
+  player_missilerotatespeed: 0.4
+  enemy_speed: 5
+  enemy_rotatespeed: 0.1
+  enemy_hp: 5
+  enemy_collisiondamage: 5
+  enemy_missileadamage: 1
+  enemy_missilebdamage: 1
+  enemy_missilespeed: 5
+  enemy_missilerotatespeed: 1
